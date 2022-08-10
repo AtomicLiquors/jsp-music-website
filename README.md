@@ -21,6 +21,9 @@ Html Css Javascript
 2. Demo 링크
 (추가요망)
 
+### 실행 경로
+프로젝트 폴더\src\main\webapp\board\jsphome\home.jsp
+
 
 
 5. ERD(필요할 경우)
