@@ -13,7 +13,8 @@ public class MemberMgr {
 	private DBConnectionMgr pool;
 	
 	public static final String SAVEFOLDER=
-			"C:/Jsp/myapp/src/main/webapp/aproject/photo/";
+			//"C:/Jsp/myapp/src/main/webapp/aproject/photo/";
+			"../photo/";
 		
 	public static final String ENCODING= "EUC-KR";
 	public static final int MAXSIZE=1024*1024*10; // 10MB
@@ -51,10 +52,6 @@ try {
 return flag;	
 }
 	
-//public static void main(String[] args) {
-//	MemberMgr mgr=new MemberMgr();
-//	System.out.println(mgr.loginChk("aaa", "1234")); //�ܼ�â�� true ����
-//}
 
 
 //-------------  id 중복체크 하기  ------------- 

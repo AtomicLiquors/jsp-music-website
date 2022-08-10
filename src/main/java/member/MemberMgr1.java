@@ -1,5 +1,6 @@
 package member;
 
+import java.io.File;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -15,7 +16,10 @@ public class MemberMgr1 {
 
 	private DBConnectionMgr pool;
 	
-	public static final String SAVEFOLDER = "C:/Jsp/ateamweb/src/main/webapp/board/photo/";
+	public static final String SAVEFOLDER = 
+			//"C:/Jsp/ateamweb/src/main/webapp/board/photo/";
+			"../photo/";
+	//현재 파일 업로드가 실제로 실행되는 건 이 경로다.
 
 	public static final String ENCODING = "UTF-8";
 	public static final int MAXSIZE = 1024 * 1024 * 10; // 10MB
@@ -317,13 +321,6 @@ public Vector<MemberBean1> listMember(){
 	return vlist;
 	
 }
-//public static void main(String[] args) {
-//	Vector<MemberBean1> vlist=new Vector<MemberBean1>();
-//	MemberMgr1 mgr=new MemberMgr1();
-//	vlist=mgr.listMember();
-//	System.out.println(vlist.size()); //출력됨. tblmember에 있는 총 행 갯수 출력함.
-//	
-//}
 	
 	
 	// ------------- 회원 추가하기 -------------
@@ -372,13 +369,6 @@ public Vector<MemberBean1> listMember(){
 		}
 		return flag;
 	}
-//	public static void main(String[] args) {
-//	String emailaddr = "aaa@abc.com";
-//	int idx = emailaddr.indexOf('@');
-//	String e1 = emailaddr.substring(0, idx);
-//	String e2 = emailaddr.substring(idx+1);
-//	System.out.println(e1 + " : " + e2);
-//}
 	
 	
 	// ------------- 회원 수정하기 -------------
@@ -452,6 +442,8 @@ return flag;
 	}
 	
 	public static void main(String[] args) {
+//		String basePath = new File("").getAbsolutePath();
+//	    System.out.println(basePath);
 		MemberMgr1 mgr=new MemberMgr1();
 		boolean a;
 		a=mgr.deleteMember("aaa1");
