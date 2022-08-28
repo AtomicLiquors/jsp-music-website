@@ -17,8 +17,8 @@ public class MemberMgr1 {
 	private DBConnectionMgr pool;
 	
 	public static final String SAVEFOLDER = 
-			//"C:/Jsp/ateamweb/src/main/webapp/board/photo/";
-			"../photo/";
+			"C:/Jsp/ateamweb/src/main/webapp/board/photo/";
+			//"../photo/";
 	//현재 파일 업로드가 실제로 실행되는 건 이 경로다.
 
 	public static final String ENCODING = "UTF-8";
@@ -445,9 +445,6 @@ return flag;
 //		String basePath = new File("").getAbsolutePath();
 //	    System.out.println(basePath);
 		MemberMgr1 mgr=new MemberMgr1();
-		boolean a;
-		a=mgr.deleteMember("aaa1");
-		System.out.println(a);
 	}
 	
 		

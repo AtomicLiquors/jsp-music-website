@@ -59,7 +59,7 @@ function optFrm(option) {
 
 			<div class="panel">
 				<div class="frame_block">
-					<div class="banner_block"></div>
+					<div class="banner_block" style="background-image: url('banner_2.jpg');"></div>
 					<div class="board_block">
 						<div class="title_block">
 							<form name="optFrm" method="post">

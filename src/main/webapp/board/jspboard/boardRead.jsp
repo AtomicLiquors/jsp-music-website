@@ -328,6 +328,7 @@ var url_combine_naver = url_default_naver + encodeURI(url_this_page) + title_def
 
 .post-comment {
 	margin-top: 1vw;
+	margin-bottom: 200px;
 }
 
 .comment-section-header {
@@ -346,6 +347,9 @@ var url_combine_naver = url_default_naver + encodeURI(url_this_page) + title_def
 	margin-bottom: 5vw;
 }
 
+.comment-write-header {
+	margin-bottom: 5vw;
+}
 
 @media screen and (max-width: 991px) {
   .page {
