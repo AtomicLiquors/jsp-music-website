@@ -21,10 +21,11 @@ Html Css Javascript
 ### 관리자 기능
 &nbsp;  
    
+<!--
 ## DB 관계도
 
 ![대체 텍스트](https://images.pexels.com/photos/8283833/pexels-photo-8283833.jpeg?auto=compress&cs=tinysrgb&w=600)
-
+-->   
 
 
 
