@@ -30,7 +30,11 @@ Html Css Javascript
 ### 관리자 기능
 - 회원 탈퇴
 &nbsp;  
+&nbsp;  
    
+## 실행:  
+src\main\webapp\board\jsphome\home.jsp
+
 <!--
 ## DB 관계도
 
