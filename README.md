@@ -69,11 +69,12 @@ ___
 &nbsp;   
 ### :bar_chart: 구조
 #### [Class Diagram]
+<img src = "https://github.com/AtomicLiquors/jsp-music-website/blob/main/Class Diagram.png" style= "width: 60vw;">
 
 &nbsp;  
 &nbsp;  
 #### [ER Diagram]
-<img src = "https://github.com/AtomicLiquors/jsp-music-website/blob/main/ERiagram.png" style= "width: 60vw;">
+<img src = "https://github.com/AtomicLiquors/jsp-music-website/blob/main/ERDiagram.png" style= "width: 60vw;">
 
 
 
