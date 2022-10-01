@@ -32,8 +32,6 @@ Html Css Javascript
 &nbsp;  
 &nbsp;  
    
-## 실행:  
-src\main\webapp\board\jsphome\home.jsp
 
 <!--
 ## DB 관계도
