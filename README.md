@@ -7,7 +7,7 @@
 &nbsp;  
 
 
-# JSP 음악 커뮤니티 웹사이트 :music:  
+# JSP 음악 커뮤니티 웹사이트 :headphones:  
 > JSP 기반 
 > DB Connection Pool을 이용한 DB연동 구현  
 
