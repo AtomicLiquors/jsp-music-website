@@ -60,10 +60,10 @@ ___
 
 &nbsp;  
 ___
-
+<!--
 &nbsp;  
 ### :hammer: Troubleshooting
-   
+   -->
 
 
 &nbsp;   
@@ -80,6 +80,7 @@ ___
 
 &nbsp;  
 ___
-
+<!--
 &nbsp;   
 ### :memo: 후기
+-->
